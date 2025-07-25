@@ -154,10 +154,16 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+    .content-section__title {
+        font-size: 36px;
+    }
     .cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 220px;
+    }
+    .card__title {
+        font-size: 24px;
     }
 }
 
